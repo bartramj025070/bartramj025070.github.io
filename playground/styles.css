@@ -1,0 +1,17 @@
+/* styles.css */
+
+#0 {
+    --answer-content: "Answer!";
+}
+
+.question-button {
+    border-radius: 20px;
+    background-color: #BFB2F3;
+    border-color: #877eac;
+    height: 20px;
+    width: 50px;
+}
+
+.question-button::before {
+    content: var(--answer-content);
+}
