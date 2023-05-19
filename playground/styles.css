@@ -15,11 +15,13 @@ h1 {
     border-radius: 20px;
     background-color: #BFB2F3;
     border-color: #877eac;
+    border-width: 1px;
     border-style: solid;
     height: 20px;
-    color: #F8A3A8;
+    color: #877eac;
     font-family: 'Roboto', sans-serif;
     width: 150px;
+    cursor: pointer;
 }
 
 .question-button::before {
