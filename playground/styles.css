@@ -1,7 +1,14 @@
 /* styles.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 #0 {
     --answer-content: "Answer!";
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #F8A3A8;
 }
 
 .question-button {
@@ -9,9 +16,12 @@
     background-color: #BFB2F3;
     border-color: #877eac;
     height: 20px;
-    width: 50px;
+    color: #F8A3A8;
+    font-family: 'Roboto', sans-serif;
+    width: 150px;
 }
 
 .question-button::before {
     content: var(--answer-content);
+
 }
