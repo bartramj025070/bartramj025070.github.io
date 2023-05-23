@@ -6,6 +6,10 @@
     --answer-content: "Answer!";
 }
 
+#quiz-content {
+    align-content: center;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     color: #877eac;
