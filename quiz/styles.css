@@ -15,6 +15,7 @@ h1 {
     border-radius: 20px;
     background-color: #BFB2F3;
     border: none;
+    border-width: 0px;
     border-style: solid;
     height: 20px;
     color: #877eac;
@@ -32,5 +33,4 @@ h1 {
 
 .question-button::before {
     content: var(--answer-content);
-
 }
