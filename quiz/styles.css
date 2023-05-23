@@ -26,6 +26,8 @@ h1 {
 
 .question-button:hover {
     width: 200px;
+    background-color: #877eac;
+    color: #BFB2F3;
 }
 
 .question-button::before {
