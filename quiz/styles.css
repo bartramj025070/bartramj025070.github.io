@@ -14,15 +14,14 @@ h1 {
 .question-button {
     border-radius: 20px;
     background-color: #BFB2F3;
-    border-color: #877eac;
-    border-width: 1px;
+    border: none;
     border-style: solid;
     height: 20px;
     color: #877eac;
     font-family: 'Roboto', sans-serif;
     width: 150px;
     cursor: pointer;
-    transition: all;
+    transition: all .25s;
 }
 
 .question-button:hover {
