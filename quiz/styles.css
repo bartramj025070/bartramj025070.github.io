@@ -2,12 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-#0 {
-    --answer-content: "Answer!";
+#question0 {
+    --answer-content: "deez nuts!";
 }
 
 #quiz-content {
     align-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 h1 {
@@ -16,25 +18,42 @@ h1 {
 }
 
 .question-button {
+    position: relative; /* Add relative positioning */
     border-radius: 20px;
-    background-color: #BFB2F3;
+    background-color: rgb(191, 178, 243);
     border: none;
     border-width: 0px;
     border-style: solid;
     height: 20px;
-    color: #877eac;
+    color: rgb(135, 126, 172);
     font-family: 'Roboto', sans-serif;
-    width: 150px;
+    min-width: 150px;
     cursor: pointer;
     transition: all .25s;
+    overflow: hidden; /* Prevents the ::before element from causing overflow */
 }
 
 .question-button:hover {
-    width: 200px;
+    width: 200%px;
     background-color: #877eac;
-    color: #BFB2F3;
+    color: #877eac;
 }
 
 .question-button::before {
     content: var(--answer-content);
+    color: rgb(191, 178, 243);
+    opacity: 0;
+    transition: all .25s;
+    position: absolute; /* Add absolute positioning */
+    top: 0; /* Position at the top of the button */
+    left: 0; /* Position at the left of the button */
+    width: 100%; /* Occupy the full width of the button */
+    height: 100%; /* Occupy the full height of the button */
+    display: flex; /* Use flexbox to center the content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.question-button:hover::before {
+    opacity: 1;
 }
