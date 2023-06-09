@@ -6,6 +6,14 @@
     --answer-content: "int(string)";
 }
 
+#question1 {
+    --answer-content: "str(integer)";
+}
+
+#question2 {
+    --answer-content: "A dictionary has a key type, usually an integer or a string- a table only has integer indexes";
+}
+
 #quiz-content {
     align-content: center;
     align-items: center;
@@ -13,6 +21,11 @@
 }
 
 h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #877eac;
+}
+
+p {
     font-family: 'Roboto', sans-serif;
     color: #877eac;
 }
