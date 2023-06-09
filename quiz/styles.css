@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 #question0 {
-    --answer-content: "deez nuts!";
+    --answer-content: "int(string)";
 }
 
 #quiz-content {
@@ -35,7 +35,7 @@ h1 {
 
 .question-button:hover {
     width: 200%px;
-    background-color: #877eac;
+    background-color: rgb(134, 125, 171);
     color: #877eac;
 }
 
